@@ -54,3 +54,24 @@ I recommend using RMSE (Root Mean Squared Error) to express the model’s perfor
 The model performs very well on the training data, explaining 93.8% of the variation and having a low error (RMSE = 428.651). However, when applied to unseen test data, the performance drops significantly — it explains only 55.2% of the variation, and the error more than doubles (RMSE = 1,111.454).
 
 
+### 6. coefficients plot
+ 
+![Linear](https://github.com/user-attachments/assets/0c73febe-6ba3-4259-97b6-c4bd9495dcd1)
+
+The 3 largest coefficients are for:
+
+"Item_MRP"- for every 1 point increase in their Item_MRP, their predicted sales increases 0.98 points.
+"Item_Type_seafood" - for every 1 point increase in their Item_Type_seafood, their predicted sales increases 0.36 points.
+"Item_Type_Starchy Foods" - for every 1 point increase in their Item_Type_seafood, their predicted sales increases 0.15 points.
+ 
+### 6. tree-based model's feature importances
+
+![Reg](https://github.com/user-attachments/assets/ed8fc977-55be-4b9f-a02b-815649b6304a)
+
+The top 5 most important features are:
+
+Item_MRP
+Outlet_Establishment_year
+Item_visibility
+Outlet_size
+Item_weight
