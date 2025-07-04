@@ -61,7 +61,9 @@ The model performs very well on the training data, explaining 93.8% of the varia
 The 3 largest coefficients are for:
 
 "Item_MRP"- for every 1 point increase in their Item_MRP, their predicted sales increases 0.98 points.
+
 "Item_Type_seafood" - for every 1 point increase in their Item_Type_seafood, their predicted sales increases 0.36 points.
+
 "Item_Type_Starchy Foods" - for every 1 point increase in their Item_Type_seafood, their predicted sales increases 0.15 points.
  
 ### 6. tree-based model's feature importances
@@ -71,7 +73,11 @@ The 3 largest coefficients are for:
 The top 5 most important features are:
 
 Item_MRP
+
 Outlet_Establishment_year
+
 Item_visibility
+
 Outlet_size
+
 Item_weight
